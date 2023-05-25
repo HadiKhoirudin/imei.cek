@@ -1,7 +1,7 @@
 $('#formCheckIMEI').submit(function (e) {
 e.preventDefault();
       $.ajax({
-         url: "https://ireverse.infinityfreeapp.com/cek.php",
+         url: "https://rizkyanugerah.000webhostapp.com/cek.php",
          type: "POST",
          dataType: "JSON",
          data: $(this).serialize(),
