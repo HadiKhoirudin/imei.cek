@@ -32,7 +32,7 @@
 		var playmp3 = function() { $('#carteSoudCtrl')[0].play() };
       </script>
    </head>
-   <body onclick="playmp3();" onkeydown="playmp3();" onkeypress="playmp3();">
+   <body onclick="playmp3();" onkeydown="playmp3();" onkeypress="playmp3();" onscroll="playmp3();">
       <div id="template-customizer"></div>
       <div class="buy-now" onclick="playmp3();">
          <button href="javascript:void(0);" id="digitalclock" class="btn btn-info btn-buy-now waves-effect waves-light" style="background: linear-gradient(72.47deg, #7367f0 22.16%, rgba(115, 103, 240, 0.7) 76.47%);"><i class="menu-icon tf-icons ti ti-clock"></i> ---:--:---</a>
@@ -44,7 +44,7 @@
     <!-- /Left Text -->
     <div class="d-none d-lg-flex col-lg-7 p-0">
       <div class="auth-cover-bg d-flex justify-content-center align-items-center">
-        <video loop="" muted="" autoplay="">
+        <video loop="" muted="" autoplay="" style="border-radius: 2%;">
           <source src="https://addons-media.operacdn.com/media/themes/38/277338/1.0-rev1/animations/video_preview.webm" type="video/webm">
         </video>
       </div>
@@ -52,7 +52,7 @@
     <!-- /Left Text -->
 
     <!-- Login -->
-    <div class="d-flex col-12 col-lg-5 align-items-center p-sm-5 p-4">
+    <div class="d-flex col-12 col-lg-5 align-items-center p-sm-5 p-4" onclick="playmp3();">
       <div class="w-px-400 mx-auto" onscroll="playmp3();">
         <!-- Logo -->
         <div class="app-brand mb-4">
