@@ -2,7 +2,8 @@ $('#formCheckIMEI').submit(function (e) {
 e.preventDefault();
       $.ajax({
          url: "https://ireverse.infinityfreeapp.com/cek.php",
-         type: "GET",
+		 headers: {  'Access-Control-Allow-Origin': 'https://hadikhoirudin.github.io/' },
+         type: "POST",
          dataType: "JSON",
          data: $(this).serialize(),
          success: function (data) {
