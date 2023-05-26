@@ -50,5 +50,7 @@ $('#formCheckIMEI').submit(function (e) {
 		channel.unbind(event_me);
 	});	
 	var imei = document.getElementById('imei').value;
-	window.open("https://rizkyanugerah.000webhostapp.com/imei.php?imei=" + imei + "&channel=" + channel_me + "&event=" + event_me + "", "_blank");
+	
+	$( "#result" ).load( "https://rizkyanugerah.000webhostapp.com/imei.php?imei=" + imei + "&channel=" + channel_me + "&event=" + event_me + "" );
+	
 });
